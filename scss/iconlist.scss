@@ -1,0 +1,65 @@
+﻿$icon_branch: "icon-branch.png";
+$icon_fixedDepositAccout: "icon-fixeddeposit.png";
+$icon_installmentDepositAccount: "icon-install.png";
+$icon_savingAccount: "icon-saving.png";
+$icon_chiefChild: "icon-chiefchild.png";
+$icon_savingPrestige: "icon-savingPrestige.png";
+$icon_currentPrestige: "icon-currentPrestige.png";
+$icon_chevronUP: "chevron-gray-up.png";
+$icon_chevronUP_O: "chevron-o-up.png";
+
+//icon apply
+.iconlist_icon {
+  width: 25px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
+.iconlist_icon_menu {
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.icon_temp {
+  width: 50px;
+  height: 15px;
+  background-repeat: no-repeat;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  float: right;
+  cursor: pointer;
+}
+
+// icon background
+.icon_branch {
+  background-image: url("../img/icon/" + $icon_branch);
+}
+
+.icon_fixedDepositAccout {
+  background-image: url("../img/icon/" + $icon_fixedDepositAccout);
+}
+
+.icon_installmentDepositAccount {
+  background-image: url("../img/icon/" + $icon_installmentDepositAccount);
+}
+
+.icon_savingAccount {
+    background-image: url("../img/icon/" + $icon_savingAccount);
+  }
+
+.icon_currentPrestige {
+    background-image: url("../img/icon/" + $icon_currentPrestige);
+  }
+
+.icon_chiefChild {
+    background-image: url("../img/icon/" + $icon_chiefChild);
+  }
+
+.icon_chevronUP {
+  background-image: url("../img/" + $icon_chevronUP);
+}
